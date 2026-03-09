@@ -8,4 +8,4 @@ onload = () => {
   window.addEventListener('click', () => {
     const audio = document.getElementById('myAudio');
     audio.play();
-}, { once: true }); // { once: true }
+}, { once: true });
