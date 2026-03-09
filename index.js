@@ -5,3 +5,7 @@ onload = () => {
       clearTimeout(c);
     }, 1000);
   };
+  window.addEventListener('click', () => {
+    const audio = document.getElementById('myAudio');
+    audio.play();
+}, { once: true }); // { once: true }
